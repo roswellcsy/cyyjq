@@ -8,7 +8,7 @@
     <x-header slot="header" style="width:100%;relative:absolute;left:0;top:0;z-index:100;"
               :left-options="{showBack: true, backText: '返回'}" 
               :right-options="{showMore: false}"
-              @on-click-more="showMenus = false">禅城区幸福一家亲
+              @on-click-more="showMenus = false">纯阳义家亲
     </x-header>
 
     <!-- <x-header :right-options="{showMore: true}" @on-click-more="showMenus = true">with more menu</x-header> -->

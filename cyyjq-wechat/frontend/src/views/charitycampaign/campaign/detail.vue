@@ -18,9 +18,6 @@
         <cell title='可报名参与人数:' :value=content[0].campaign_counts></cell>
         <cell title='可报名志愿者人数:' :value=content[0].campaign_vol_counts></cell> 
     </group>
-    <group>
-      <span>活动后台ID：{{ content[0].id }}</span>
-    </group>
     <group style="padding:5px 20px;">
       <x-button type="primary" action-type="button" @click.native.prevent="handleSignup">报名</x-button>
     </group>
