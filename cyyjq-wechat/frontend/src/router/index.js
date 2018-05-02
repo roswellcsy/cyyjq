@@ -163,55 +163,97 @@ export const constantRouterMap = [
         path: '/policy/index',
         name: 'policy',
         component: _import('policy/index'),
-        meta: { title: '政策相关' }
+        meta: { title: '市民服务' }
       },
       {
-        path: '/policy/policyList',
-        component: _import('policy/policyList'),
+        path: '/policy/zjbl',
+        component: _import('policy/zjbl'),
         // redirect: '/policy/index',
-        name: 'policyList'
+        name: 'zjbl'
       },
       {
-        path: '/policy/policyJifen',
-        component: _import('policy/policyJifen'),
+        path: '/policy/shbz',
+        component: _import('policy/shbz'),
         // redirect: '/policy/index',
-        name: 'policyJifen'
+        name: 'shbz'
       },
       {
-        path: '/policy/policyQa',
-        component: _import('policy/policyQa'),
+        path: '/policy/jyzc',
+        component: _import('policy/jyzc'),
         // redirect: '/policy/index',
-        name: 'policyQa'
+        name: 'jyzc'
       },
       {
-        path: '/policy/juzhuzheng',
-        component: _import('policy/juzhuzheng'),
+        path: '/policy/mssw',
+        component: _import('policy/mssw'),
         // redirect: '/policy/index',
-        name: 'juzhuzheng'
+        name: 'mssw'
+      },
+      { // 证件办理
+        path: '/policy/jzz',
+        component: _import('policy/jzz'),
+        // redirect: '/policy/index',
+        name: 'jzz'
       },
       {
-        path: '/policy/huji',
-        component: _import('policy/huji'),
+        path: '/policy/crj',
+        component: _import('policy/crj'),
         // redirect: '/policy/index',
-        name: 'huji'
+        name: 'crj'
+      },
+      { // 社会保障
+        path: '/policy/cxjmyb',
+        component: _import('policy/cxjmyb'),
+        // redirect: '/policy/index',
+        name: 'cxjmyb'
       },
       {
-        path: '/policy/jisheng',
-        component: _import('policy/jisheng'),
+        path: '/policy/cxjmylbx',
+        component: _import('policy/cxjmylbx'),
         // redirect: '/policy/index',
-        name: 'jisheng'
+        name: 'cxjmylbx'
       },
       {
-        path: '/policy/zhufang',
-        component: _import('policy/zhufang'),
+        path: '/policy/gllrjt',
+        component: _import('policy/gllrjt'),
         // redirect: '/policy/index',
-        name: 'zhufang'
+        name: 'gllrjt'
       },
       {
-        path: '/policy/zinvjiaoyu',
-        component: _import('policy/zinvjiaoyu'),
+        path: '/policy/cjrfl',
+        component: _import('policy/cjrfl'),
         // redirect: '/policy/index',
-        name: 'zinvjiaoyu'
+        name: 'cjrfl'
+      },
+      {
+        path: '/policy/cxzdshbz',
+        component: _import('policy/cxzdshbz'),
+        // redirect: '/policy/index',
+        name: 'cxzdshbz'
+      },
+      { // 教育政策
+        path: '/policy/xqjy',
+        component: _import('policy/xqjy'),
+        // redirect: '/policy/index',
+        name: 'xqjy'
+      },
+      { // 教育政策
+        path: '/policy/xxjd',
+        component: _import('policy/xxjd'),
+        // redirect: '/policy/index',
+        name: 'xxjd'
+      },
+      { // 民生事务
+        path: '/policy/mssw1',
+        component: _import('policy/mssw1'),
+        // redirect: '/policy/index',
+        name: 'mssw1'
+      },
+      { // 民生事务
+        path: '/policy/mssw2',
+        component: _import('policy/mssw2'),
+        // redirect: '/policy/index',
+        name: 'mssw2'
       }
     ]
   },
