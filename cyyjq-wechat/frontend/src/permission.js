@@ -37,7 +37,9 @@ const whiteList = [
   '/volServ/serviceList',
   '/volServ/serviceDetail',
   '/shareplatform',
-  '/shareplatform/index'
+  '/shareplatform/index',
+  '/certificate/index',
+  '/advisor/index'
   // // 调试，生产需要注销
   // '/policy/policyQa',
   // '/proAdv/index',
