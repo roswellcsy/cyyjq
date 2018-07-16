@@ -152,6 +152,36 @@ export const constantRouterMap = [
       }
     ]
   },
+  { // 咨询服务相关的路由
+    path: '/advisor',
+    component: Layout,
+    redirect: '/advisor/index',
+    name: 'advisor',
+    hidden: true,
+    children: [
+      {
+        path: '/advisor/index',
+        name: 'advisor',
+        component: _import('advisor/index'),
+        meta: { title: '咨询服务' }
+      }
+    ]
+  },
+  { // 办证相关的路由
+    path: '/certificate',
+    component: Layout,
+    redirect: '/certificate/index',
+    name: 'certificate',
+    hidden: true,
+    children: [
+      {
+        path: '/certificate/index',
+        name: 'certificate',
+        component: _import('certificate/index'),
+        meta: { title: '办证相关' }
+      }
+    ]
+  },
   { // 政策相关的路由
     path: '/policy',
     component: Layout,
@@ -164,6 +194,11 @@ export const constantRouterMap = [
         name: 'policy',
         component: _import('policy/index'),
         meta: { title: '市民服务' }
+      },
+      {
+        path: '/policy/policyQa',
+        component: _import('policy/policyQa'),
+        meta: { title: '政策咨询' }
       },
       {
         path: '/policy/zjbl',

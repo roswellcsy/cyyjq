@@ -205,7 +205,8 @@ export default {
         volinfo_service_date,
         volinfo_skills
       ).then(response => { // mockserver返回20000和包在data的token，实际后端只返回token
-        this.$router.push({ path: '/personal/userInfo' })
+        window.location.href = 'https://www.izyz.org.cn/account/web/register.html'
+        // this.$router.push({ path: '/personal/userInfo' })
       }).catch(error => {
         console.log(error)
         // reject(error)
